@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08cf4a" />
+      <stop offset="100%" stop-color="#038a34" />
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded corners -->
+  <rect width="512" height="512" rx="112" fill="url(#grad)" />
+  
+  <!-- Stylized Cross atop the church -->
+  <line x1="256" y1="102" x2="256" y2="225" stroke="#ffffff" stroke-width="20" stroke-linecap="round" />
+  <line x1="205" y1="143" x2="307" y2="143" stroke="#ffffff" stroke-width="20" stroke-linecap="round" />
+  
+  <!-- Church Roof / Spire -->
+  <polygon points="256,225 133,297 379,297" fill="#ffffff" />
+  
+  <!-- Church Body -->
+  <rect x="148" y="292" width="216" height="118" fill="#ffffff" />
+  
+  <!-- Church Arch Door -->
+  <path d="M 220 410 L 220 345 A 36 36 0 0 1 292 345 L 292 410 Z" fill="#038a34" />
+  
+  <!-- Foundation Line -->
+  <line x1="102" y1="415" x2="410" y2="415" stroke="#ffffff" stroke-width="15" stroke-linecap="round" />
+</svg>
